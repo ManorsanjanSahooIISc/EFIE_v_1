@@ -11,7 +11,7 @@ numPatches = size(patchList);
  %  mesh (nodeList)
 %  mesh(patchList)
 edgeListSize = numPatches*3;
-edgeList = zeros(edgeListSize , 3);
+edgeList = zeros(edgeListSize,3);
 
 for i = 1:3:edgeListSize
     if (i==1)
